@@ -1,0 +1,141 @@
+#main {
+  padding-bottom: 70px;
+  padding-top: 7%;
+}
+
+.table{
+  font-size: 10px;
+}
+
+#activities-select
+{
+  width: 70%;
+}
+
+#elimina{
+  border: none;
+  background-color: transparent;
+  color: black;
+  text-decoration: underline;
+}
+
+#azione {
+  color: black;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[NAVBAR]*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.navMenu {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+  color: #777777;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 150px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #990000;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: #990000;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(210px);
+  transform: translateX(210px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(335px);
+  transform: translateX(335px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(500px);
+  transform: translateX(500px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(5):hover ~ .dot {
+  -webkit-transform: translateX(600px);
+  transform: translateX(600px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[button]*/
+
+.btn.btn-primary{
+  background:#990000;
+  border: none;
+}
+
+.btn.btn-primary:hover{
+  background:#6e0000;
+}
+
+.form-control:focus{
+  
+}
+
+
+.brand{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  color: #6e0000;
+  padding-left: 5%;
+  text-decoration: none;
+}
