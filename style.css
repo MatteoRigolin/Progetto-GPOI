@@ -3,22 +3,6 @@
   padding-top: 7%;
 }
 
-.table{
-  font-size: 10px;
-}
-
-#activities-select
-{
-  width: 70%;
-}
-
-#elimina{
-  border: none;
-  background-color: transparent;
-  color: black;
-  text-decoration: underline;
-}
-
 #azione {
   color: black;
 }
