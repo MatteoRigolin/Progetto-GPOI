@@ -2,7 +2,7 @@
 
 if (!isset($_GET['page']))
 {
-        header("Location: index.php?page=2");
+        header("Location: index.php?page=1");
 }
 
 $page = $_GET['page'];
