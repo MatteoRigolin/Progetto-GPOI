@@ -17,5 +17,15 @@ class Event
         return $sql;
     }
 
+    function createEvent($name, $date_event, $start_hour, $end_hour, $description, $id_room)
+    {
+        $sql = "INSERT INTO `event` (name, date_event, start_hour, end_hour, description, id_room, event_active)
+                VALUES ('$name', '$date_event', '$start_hour', '$end_hour', '$description', '$id_room', 1); 
+                ";
+
+        $result = $this->conn->query($sql);
+        return $result;
+    }
+
 }
 ?>
