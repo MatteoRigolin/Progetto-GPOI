@@ -11,10 +11,10 @@ switch ($page) {
         include("pages/home.php");
         break;
     case 2:
-        include("pages/biglietti.php");
+        include("pages/eventi.php");
         break;
     case 3:
-        include("pages/tavoli.php");
+        include("pages/stanze.php");
         break;
 }
 ?>
