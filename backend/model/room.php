@@ -16,5 +16,15 @@ class Room
         return $sql;
     }
 
+    function createRoom($capacity, $room_description)
+    {
+        $sql = "INSERT INTO room (capacity, room_description, room_active)
+                VALUES ('$capacity', '$room_description', 1); 
+                ";
+
+        $result = $this->conn->query($sql);
+        return $result;
+    }
+
 }
 ?>
