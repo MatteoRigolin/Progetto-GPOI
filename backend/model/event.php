@@ -10,7 +10,7 @@ class Event
     function getArchiveEvent()
     {
         $sql = "SELECT name, `role`,  team
-              FROM player
+              FROM `event` e
               WHERE 1=1
               order by quotation DESC;
                 ";
