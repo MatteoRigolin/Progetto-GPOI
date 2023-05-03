@@ -25,7 +25,7 @@ if (mysqli_num_rows($result) > 0) {
             'start_hour' => $start_hour,
             'end_hour' => $end_hour,  
             'description' => $description,   
-            'id_room' => $id_room,      
+            'room_description' => $room_description,      
         );
         array_push($events_arr, $event_arr);
     }
