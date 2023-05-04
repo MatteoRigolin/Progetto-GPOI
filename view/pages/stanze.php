@@ -14,9 +14,9 @@ session_start();
       <table class="table table-striped">
         <thead>
           <tr>
-            <th scope="col">Id</th>
+            <th scope="col">ID</th>
             <th scope="col">Capacità</th>
-            <th scope="col">Nome Stanza</th>
+            <th scope="col">Descrizione della stanza</th>
             <th></th>
           </tr>
         </thead>

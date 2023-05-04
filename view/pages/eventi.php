@@ -1,6 +1,6 @@
 <head>
-  <link rel="stylesheet" href="try.scss">
-  <!--<div class='card'>
+  <!--<link rel="stylesheet" href="try.scss">
+  <div class='card'>
     <div class='card_left'>
       <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/343086/h8fnwL1.png'>
     </div>
@@ -70,7 +70,7 @@
   </div>-->
 </head>
 
-<body>
+<body style="background-color-light">
   <!--tabella visualizzazione eventi-->
   <div class="container-fluid">
 
@@ -78,7 +78,7 @@
       <table class="table table-striped">
         <thead>
           <tr>
-            <th scope="col">Id</th>
+            <th scope="col">ID</th>
             <th scope="col">Nome</th>
             <th scope="col">Data</th>
             <th scope="col">Ora di inizio</th>
@@ -113,7 +113,7 @@
 
   <!--form creazione eventi-->
   <div class="mx-auto" style="width: 50%; padding: 30px 0px">
-    <h2>Crea una nuova stanza</h2>
+    <h2>Crea un nuovo evento</h2>
     <form method="post" style="margin-top: 20px;">
       <div class="mb-3">
         <label for="text" class="form-label"><b>Nome dell'evento</b></label>
@@ -131,7 +131,7 @@
       </div>
       <hr>
       <div class="mb-3">
-        <label for="hour" class="form-label"><b>Ora di fine</b></label>
+        <label for="hour" class="form-label"><b>Ora di chiusura</b></label>
         <input type="hour" class="form-control" placeholder="Ora di chiusura" name="end_hour" required>
       </div>
       <hr>
@@ -212,3 +212,16 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
     </script>
 </body>
+
+<style>
+.th {
+  background-color: #6e0000;
+  color: white;
+}
+
+.th, .td {
+  padding: 15px;
+  text-align: left;
+}
+
+</style>
