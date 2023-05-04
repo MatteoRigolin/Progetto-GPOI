@@ -15,7 +15,7 @@ function getArchiveEvent()
             foreach ($event_data as $event) {
                 $event_record = array(
                     'id' => $event['id'],
-                    'name' => $event['capacity'],
+                    'name' => $event['name'],
                     'date_event' => $event['date_event'],
                     'start_hour' => $event['start_hour'],
                     'end_hour' => $event['end_hour'],
