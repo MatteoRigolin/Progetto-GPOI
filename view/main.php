@@ -1,8 +1,7 @@
 <?php
 
-if (!isset($_GET['page']))
-{
-        header("Location: index.php?page=1");
+if (!isset($_GET['page'])) {
+    header("Location: index.php?page=6");
 }
 
 $page = $_GET['page'];
@@ -21,6 +20,12 @@ switch ($page) {
         break;
     case 5:
         include("pages/eventi_esistenti.php");
+        break;
+    case 6:
+        include("../view/login.php");
+        break;
+    case 7:
+        include("pages/registration.php");
         break;
 }
 ?>

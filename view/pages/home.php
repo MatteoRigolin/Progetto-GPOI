@@ -2,12 +2,14 @@
 error_reporting(0);
 session_start();
 if (empty($_SESSION['user_id'])) {
-    header('location: ../login.php');
+    header('location: ../view/index.php?page=6');
 }
 
 ?>
 
-
+<div class="" id="header">
+        <?php include("../view/header.php") ?>
+    </div>
 <div class="hometitle1">
   <a class="primary">ORGANIZE.</a>
 </div>

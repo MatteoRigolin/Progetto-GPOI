@@ -3,15 +3,19 @@
 error_reporting(0);
 session_start();
 if (empty($_SESSION['user_id'])) {
-    header('location: ../login.php');
+    header('location: ../view/index.php?page=6');
 }
 
 ?>
-
+<div class="" id="header">
+        <?php include("../view/header.php") ?>
+    </div>
 <head>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="file.scss">
 </head>
+
+
 
 
 <!--tabella visualizzazione eventi-->

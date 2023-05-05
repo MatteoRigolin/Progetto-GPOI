@@ -67,7 +67,7 @@ function logon($data)
 
     if ($response-> message == "1") //response == true vuol dire sessione senza errori
     {
-        header('Location: ../login.php');
+        header('Location: ../view/index.php?page=6');
     } else {
         return -1;
     }

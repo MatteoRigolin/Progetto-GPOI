@@ -32,7 +32,7 @@
                 if (login($data) == -1) {
                     echo ('<p class=text-danger>Email o password errata</p>');
                 } else {
-                    header('Location: ../view/pages/home.php');
+                    header('Location: ../view/index.php?page=1');
 
 
 
@@ -46,7 +46,7 @@
         <div class="row">
             <button class="btn btn-lg btn-primary btn-block mx-auto" type="submit">Accedi</button>
             <div class="row">
-                <a class="text-dark" href="pages/registration.php" style="text-decoration: none; font-size:13px;">
+                <a class="text-dark" href="../view/index.php?page=7" style="text-decoration: none; font-size:13px;">
                     <u>Se non hai ancora un account, registrati ora!</u>
                 </a>
             </div>
