@@ -7,8 +7,8 @@
     <form class="form-signin" method="post">
         
         <h1 class="h3 mb-3 fw-bold">Inserisci le credenziali</h1>
-        <label for="inputName" class="sr-only mb-2">email</label>
-        <input type="text" id="inputName" class="form-control mb-4" placeholder="email" name="email" required>
+        <label for="inputName" class="sr-only mb-2">Email o Username</label>
+        <input type="text" id="inputName" class="form-control mb-4" placeholder="Email o Username" name="email" required>
         <label for="inputPassword" class="sr-only mb-2">Password</label>
         <input type="password" id="inputPassword" class="form-control mb-4" placeholder="Password" name="pw"
             required>
