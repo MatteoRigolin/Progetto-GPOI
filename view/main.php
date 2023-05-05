@@ -11,7 +11,7 @@ switch ($page) {
         include("pages/home.php");
         break;
     case 2:
-        include("pages/eventi.php");
+        include("pages/eventi_main.php");
         break;
     case 3:
         include("pages/stanze.php");

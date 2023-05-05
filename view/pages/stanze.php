@@ -16,7 +16,7 @@ session_start();
           <tr>
             <th scope="col">ID</th>
             <th scope="col">Capacità</th>
-            <th scope="col">Descrizione della stanza</th>
+            <th scope="col">Descrizione</th>
             <th></th>
           </tr>
         </thead>
@@ -45,15 +45,15 @@ session_start();
 
 
   <div class="mx-auto" style="width: 50%; padding: 30px 0px">
-    <h2>Crea una nuova stanza</h2>
+    <h2>Aggiungi una stanza</h2>
     <form method="post" style="margin-top: 20px;">
       <div class="mb-3">
-        <label for="number" class="form-label"><b>Capacità della stanza</b></label>
+        <label for="number" class="form-label"><b>Capacità</b></label>
         <input type="number" class="form-control" placeholder="Capienza della stanza" name="capacity" required>
       </div>
       <hr>
       <div class="mb-3">
-        <label for="text" class="form-label"><b>Descrizione della stanza</b></label>
+        <label for="text" class="form-label"><b>Descrizione</b></label>
         <input type="text" class="form-control" placeholder="Descrizione della stanza" name="room_description"
           required>
       </div>

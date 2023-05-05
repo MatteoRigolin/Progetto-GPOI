@@ -3,13 +3,13 @@
   padding-top: 7%;
 }
 
-#azione {
-  color: black;
-}
-
-
-
-
+/* PALETTE
+--blood-red: #6e0000ff;
+--white: #ffffffff;
+--gray: #817f82ff;
+--prussian-blue: #172a3aff;
+--rich-black: #0e131fff;
+*/
 
 /*//////////////////////////////////////////////////////////////////
 [NAVBAR]*/
@@ -25,7 +25,7 @@
 .navMenu {
   position: absolute;
   top: 5%;
-  left: 50%;
+  left: 53%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
@@ -68,14 +68,14 @@
 
 .navMenu a:nth-child(2):hover ~ .dot {
   -webkit-transform: translateX(210px);
-  transform: translateX(210px);
+  transform: translateX(185px);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
 .navMenu a:nth-child(3):hover ~ .dot {
-  -webkit-transform: translateX(335px);
+  -webkit-transform: translateX(370px);
   transform: translateX(335px);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -145,7 +145,7 @@
 
   margin-left: auto;
   margin-right: auto;
-  width: 40em;
+  width: 37em;
   padding-top: 17%;
 }
 
@@ -162,10 +162,9 @@
 .hometitle2{
   display: flex;
   align-items: center;
-
   margin-left: auto;
   margin-right: auto;
-  width: 37em;
+  width: 34em;
   padding-top: 0%;
 }
 
@@ -178,7 +177,10 @@
   text-decoration: none;
 }
 
+.table.table-striped{
+  padding-left: 2%;
+}
 
-
-
-
+.form-control{
+  border-radius: 1rem;
+}
