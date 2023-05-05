@@ -1,3 +1,6 @@
-<body>
-  <a class="title">Software per la creazione e gestione di eventi e stanze di una discoteca</a>
-</body>
+<div class="hometitle1">
+  <a class="primary">ORGANIZE.</a>
+</div>
+<div class="hometitle2">
+<a class="secondary">Scegli noi, organizza e gestisci al meglio la tua discoteca</a>
+</div>
