@@ -11,7 +11,7 @@
         <h2>01</h2>
         <h3>Aggiungi</h3>
         <p>Clicca qui per aggiungere eventi</p>
-        <a href="pages/eventi_aggiungi.php">Vai</a>
+        <a href="index.php?page=4">Vai</a>
       </div>
     </div>
   </div>
@@ -22,7 +22,7 @@
         <h2>02</h2>
         <h3>Eventi</h3>
         <p>Clicca qui per visualizzare tutti gli eventi esistenti</p>
-        <a href="pages/eventi_esistenti.php">Vai</a>
+        <a href="index.php?page=5">Vai</a>
       </div>
     </div>
   </div>

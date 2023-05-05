@@ -16,5 +16,11 @@ switch ($page) {
     case 3:
         include("pages/stanze.php");
         break;
+    case 4:
+        include("pages/eventi_aggiungi.php");
+        break;
+    case 5:
+        include("pages/eventi_esistenti.php");
+        break;
 }
 ?>
