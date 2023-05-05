@@ -6,9 +6,33 @@
 <div class="form-container sign-up-container">
         <form action="#">
             <h1>Crea Account</h1>
-            <input type="text" placeholder="Name" />
             <input type="email" placeholder="Email" />
             <input type="password" placeholder="Password" />
+
+            <?php
+        session_start();
+
+        include_once dirname(__FILE__) . '/../function/user.php';
+
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            if (!empty($_POST['email']) && !empty($_POST['pw'])) { //se la variabile mail o password che devono essere inviate non sono vuote all'ora si invia
+        
+                $pw = hash("sha256", $_POST['pw']);
+
+                $data = array(
+                    //Immetto i dati all'interno di data
+                    "email" => $_POST['email'],
+                    "pw" => $pw,
+                );
+
+                $err = logon($data);
+                if ($err == "-1") {
+                    echo ('<p class="text-danger">Errore nella registrazione, riprova più tardi!</p>');
+                }
+            }
+        }
+        ?>
+
             <button>Registrati</button>
         </form>
     </div>
