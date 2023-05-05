@@ -19,4 +19,11 @@ room_description	nvarchar(500) not null,
 room_active			BOOLEAN  NOT NULL DEFAULT (TRUE)
 );
 
+create table `user`(
+id 					INT UNSIGNED NOT NULL   AUTO_INCREMENT  PRIMARY KEY,
+email            	NVARCHAR(64)  NOT null,
+pw 					NVARCHAR(256) not null,
+user_active			BOOLEAN  NOT NULL DEFAULT (TRUE) 
+);
+
 ALTER TABLE event ADD CONSTRAINT fk_event_room FOREIGN KEY ( id_room ) REFERENCES room ( id );
